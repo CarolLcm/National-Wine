@@ -1,0 +1,638 @@
+@charset utf-8;
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-size:16px;
+}
+.wrap p.p {
+    width: 100%;
+    height: 25px;
+    background: #F2931F;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+}
+.wrap nav {
+    width: 100%;
+    background: url('../img/11.jpg');
+}
+.wrap nav div {
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+.wrap nav div img {
+    position: absolute;
+    top: 20px;
+    left: 100%;
+}
+.wrap nav div #img2 {
+    width: 150px;
+    top: 60px;
+    left: 46%;
+    display: none;
+}
+.wrap nav div #img3 {
+    width: 25px;
+}
+.wrap nav #img {
+    margin: 10px 0 0 43%;
+}
+.wrap header .box {
+    width: 100%;
+    position: relative;
+}
+.wrap header .box ul.img li {
+    width: 100%;
+    position: absolute;
+}
+.wrap header .box ul.img li img {
+    display: block;
+    width: 100%;
+}
+.wrap header .box div {
+    width: 30px;
+    height: 100px;
+    background: #aaa;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    top: 40%;
+}
+.wrap header .box div a {
+    color: #fff;
+    font: bolder 18px 微软雅黑;
+}
+.wrap header .box div a img {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+.wrap header .box .left {
+    left: 2%;
+}
+.wrap header .box .right {
+    right: 2%;
+}
+.wrap header .box ul.circle {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+}
+.wrap header .box ul.circle li {
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+    float: left;
+    margin-right: 5px;
+    border: 2px solid transparent;
+    border-radius: 17px;
+}
+.wrap header .box ul.circle li h6 {
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 4px;
+    margin: 3px auto;
+}
+.wrap main {
+    padding-top: 31%;
+    width: 100%;
+    background: url('../img/14.jpg') no-repeat 0 0;
+    background-attachment: fixed;
+}
+.wrap main .top {
+    width: 100%;
+    background: url('../img/bg.jpg') no-repeat 0 0/100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.wrap main .top h2 {
+    padding-top: 30px;
+    font: 38px 微软雅黑;
+}
+.wrap main .top p#p {
+    margin-top: 15px;
+    font-family: 微软雅黑;
+    color: #666;
+}
+.wrap main .top ul {
+    width: 80%;
+    margin: 25px auto;
+}
+.wrap main .top ul li {
+    width: 22%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 1.5%;
+    position: relative;
+
+}
+.wrap main .top ul li img {
+    width:90%;
+    border-radius: 40px 0 40px 0;
+    border: 2px solid transparent;
+    transition:all 0.3s linear;
+}
+.wrap main .top ul li:hover img {
+    border-radius: 50%;
+    border: 2px solid #F2931F;
+}
+.wrap main .top ul li h3 {
+    padding-top: 12px;
+    width: 100%;
+    font: 18px 微软雅黑;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.wrap main .top ul li p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #666;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.wrap main .top ul li h5 {
+    width: 100%;
+    height: 5px;
+    background: #F2931F;
+}
+.wrap main .top ul li div.more {
+    width: 100%;
+    height: 40px;
+    background: #F2931F;
+    position: absolute;
+    line-height: 40px;
+    display: none;
+    bottom: 0px;
+}
+.wrap main .top ul li div.more a {
+    color: #fff;
+    font-size: 17px;
+}
+.wrap main .middle {
+    width: 100%;
+    background: transparent;
+}
+.wrap main .middle::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrap main .middle aside h2 {
+    font: 30px 微软雅黑;
+}
+.wrap main .middle section {
+    width: 90%;
+    float: right;
+    margin-top: 50px;
+}
+.wrap main .middle section .mTop ul li {
+    width: 43%;
+    height: 300px;
+    float: left;
+    margin:2%;
+}
+.wrap main .middle section .mTop ul li img {
+    width:100%;
+}
+.wrap main .middle section .mTop ul li h4 {
+    width:100%;
+    margin: 5% 0;
+    font: 14px 微软雅黑;
+    color: #666;
+}
+.wrap main .middle section .mTop ul li h6 {
+    width: 6%;
+    height: 1px;
+    background: #F2931F;
+}
+.wrap main .middle section .mTop ul li h3 {
+    width:100%;
+    margin: 6% 0;
+    font: bolder 20px 微软雅黑;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.wrap main .middle section .mTop ul li p {
+    width:100%;
+    height:20%;
+    font: 13px/20px 微软雅黑;
+    color: #666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+}
+.wrap main .middle section .mTop ul li h5 {
+    width: 20%;
+    height: 10%;
+    background: #F2931F;
+    margin-top: 4%;
+    box-shadow: 0 0 5px #666;
+    text-align: center;
+}
+.wrap main .middle section .mTop ul li h5 a {
+    color: #fff;
+    font: 16px/30px 微软雅黑;
+}
+.wrap main .middle section .mBottom ul li {
+    width: 300px;
+    margin: 8% 4% 0 0;
+    float: left;
+    box-shadow: 0 0 5px #aaa;
+    position: relative;
+}
+.wrap main .middle section .mBottom ul li img {
+    width: 100%;
+}
+.wrap main .middle section .mBottom ul li div {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: transform 0.5s linear;
+}
+.wrap main .middle section .mBottom ul li div h4 {
+    margin: 20px 0 0 30px;
+    font: 14px 微软雅黑;
+    color: #666;
+    transition: color 0.2s linear;
+}
+.wrap main .middle section .mBottom ul li div h6 {
+    margin-left: 30px;
+    width: 16px;
+    height: 1px;
+    background: #F2931F;
+}
+.wrap main .middle section .mBottom ul li div h3 {
+    margin: 25px 30px;
+    font: bolder 16px 微软雅黑;
+    transition: color 0.2s linear;
+}
+.wrap main .middle section .mBottom ul li div p {
+    width:80%;height:45px;
+    margin-left: 30px;
+    font: 14px/23px 微软雅黑;
+    color: #666;
+    transition: color 0.2s linear;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+}
+.wrap main .middle section .mBottom ul li:hover  div{
+    background: rgba(242, 147, 31, 0.7);
+}
+.wrap main .middle section .mBottom ul li:hover  div h4 {
+    color: #fff;
+}
+.wrap main .middle section .mBottom ul li:hover  div h3 {
+    color: #fff;
+}
+.wrap main .middle section .mBottom ul li:hover div p {
+    color: #fff;
+}
+.wrap main .bottom {
+    padding-top:60px;
+}
+.wrap main .bottom .bTop {
+    width: 100%;
+    background: url('../img/11.jpg');
+    text-align: center;
+}
+.wrap main .bottom .bTop h2 {
+    font: 38px 微软雅黑;
+}
+.wrap main .bottom .bTop h4 {
+    color: #666;
+    font: 17px 微软雅黑;
+    margin: 10px 0;
+}
+.wrap main .bottom .bTop p {
+    color: #2A333C;
+    margin: 0 auto;
+    padding:5% 10%;
+    line-height: 30px;
+    text-indent: 2em;
+    font-family: 微软雅黑;
+}
+.wrap main .bottom .bBottom img {
+    width:100%;
+    display:block;
+}
+.wrap footer {
+    width: 100%;
+    background: url('../img/11.jpg') repeat 0 0;
+}
+.wrap footer ul {
+    width:80%;
+    height: 60px;
+    margin: 0 0 0 20%;
+    text-align:center;
+}
+.wrap footer ul li {
+    width: 15%;
+    height: 20px;
+    float: left;
+    margin: 20px 0.5% 0 0;
+}
+.wrap footer ul li a {
+    color: #2D2C2A;
+    font: 14px 微软雅黑;
+}
+.wrap footer ul li a span {
+    float: right;
+    color: #F2931F;
+}
+.wrap footer h3 {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #F2931F;
+}
+.wrap footer .left {
+    width: 60%;
+    float: left;
+}
+.wrap footer .left div {
+   margin:20px 0 0 5%
+}
+.wrap footer .left div p {
+    font: 14px/23px 微软雅黑;
+}
+.wrap footer .left div h5 {
+    font: 14px/23px 微软雅黑;
+    margin-top: 15px;
+}
+.wrap footer .left div h4 {
+    font: 14px/23px 微软雅黑;
+    margin-top: 15px;
+}
+.wrap footer .left div h4 span {
+    color: #F2931F;
+}
+.wrap footer .right {
+    width: 25%;
+    margin-right:5%;
+}
+.wrap footer .right div {
+   float:left;
+   width:44%;
+   margin:20px 0.5%;
+}
+.wrap footer .right div img {
+    width:100%;
+}
+.wrap footer .right div h6 {
+    text-align:center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+    nav div #img3 {
+        display: none;
+    }
+    nav div:hover #img2 {
+        display: block;
+        z-index: 2;
+    }
+    nav ul {
+        width: 55%;
+        height: 50px;
+        margin-left:25%;
+        margin-top: 30px;
+    }
+    nav ul li {
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+    nav ul li a {
+        font: 15px 黑体;
+        color: #000;
+    }
+    nav ul li #word {
+        color: #F2931F;
+    }
+    nav ul li:hover a {
+        color: #F2931F;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 768px) {
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    nav div #img3 {
+        width: 32px;
+        display: block;
+    }
+    nav div #img1 {
+        display: none;
+    }
+    nav:hover #img2 {
+        display: none;
+    }
+    nav ul {
+        z-index: 2;
+        width: 100%;
+        display: none;
+        padding-top: 20px;
+    }
+    nav ul li {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    nav ul li a {
+        color: #000;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    main .top {
+        width: 100%;
+    }
+    main .top ul {
+        width: 80%;
+        margin: 25px auto;
+    }
+    main .top ul li {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .wrap main .top {
+        width: 100%;
+        background: url('../img/bg.jpg') repeat;
+    }
+    .wrap main .top h2 {
+        font-size:33px;
+    }
+    .wrap main .top ul {
+        height: 80%;
+        margin:0 17%;       
+    }
+    .wrap main .top ul li {
+        width: 38%;height:45%;margin:5% 2%;
+    }
+    .wrap main .top ul li img {
+        width: 70%;
+    }
+    .wrap main .top ul li h3{
+        font-size:1rem;
+    }
+    .wrap main .top ul li  h5 {
+        width: 100%;
+        margin-top:60px;
+    }
+    .wrap main .top ul li  div.more{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 662px) {
+    .wrap main .middle aside {
+        width:40%;height:60px;
+        margin:20px auto 0 auto;
+        text-align:center;
+    }
+    .wrap main .middle aside h6{
+        width:25%;height:1px;
+        background:#F2931F;
+        margin:0 auto;
+    }
+    .wrap main .middle section {
+        width:100%;
+    }
+    .wrap main .middle section .mTop ul li {
+        height:auto;
+        margin:0 2% 0 0;
+    }
+    .wrap main .middle section .mTop ul li:nth-child(1) {
+        width:30%;
+    }
+    .wrap main .middle section .mTop ul li:nth-child(2) {
+        width:60%;
+    }
+    .wrap main .middle section .mTop ul li:nth-child(2) h3 {
+        margin:2px 0;
+    }
+    .wrap main .middle section .mTop ul li:nth-child(2) h3 {
+        margin:5px 0;
+    }
+    .wrap main .middle section .mTop ul li:nth-child(2) p {
+        height:40px;
+    }
+    .wrap main .middle section .mBottom ul li {
+        width:100%;
+        margin-top:5px;
+        background:white;
+    }
+     .wrap main .middle section .mBottom ul li:nth-child(1) {
+       margin-top:20px;
+    }
+    .wrap main .middle section .mBottom ul li img {
+        width:25%;float:left;
+    }
+    .wrap main .middle section .mBottom ul li div {
+        width:74%;float:right;
+    }
+    .wrap main .middle section .mBottom ul li div h4{
+        margin-top:2px;
+    }
+    .wrap main .middle section .mBottom ul li div h3{
+        margin:2px 0 10px 30px;
+        font:15px 微软雅黑;
+    }
+    .wrap main .middle section .mBottom ul li div p{
+        margin:2px 0 0 30px;
+        font:13px 微软雅黑;
+    }
+    .wrap main .middle section .mBottom ul li:hover {
+        background: rgba(242, 147, 31, 0.7);
+    }
+    .wrap footer ul {
+        display:none;
+    }
+    .wrap footer .left {
+       width:100%;
+    }
+    .wrap footer .left div {
+       width:90%;
+       text-align:center;
+       margin:10px auto;
+    }
+    .wrap footer .left div:nth-child(2) p,h5,h4{
+       font-size:14px;
+    }
+    .wrap footer .right {
+        width:40%;
+        margin:0 auto;
+    }
+    .wrap footer .right div {
+        width:40%;
+    }    
+}
+@media screen and (min-width: 663px) and (max-width: 2000px) {
+    .wrap main .middle aside {
+        width: 3%;
+        padding: 25% 0 0 3%;
+        float: left;
+    }
+    .wrap main .middle aside h2 {
+        width: 100%;
+        height: 100px;
+    }
+    .wrap main .middle aside h6 {
+        width: 100px;
+        height: 1px;
+        background: #F2931F;
+        margin: 80px 0 0 -50px;
+    }
+    .wrap main .middle aside h6 {
+        width: 100px;
+        height: 1px;
+        background: #F2931F;
+        margin: 80px 0 0 -50px;
+    }
+    .wrap main .middle section{
+        float:right;
+    }
+    .wrap main .middle section .mBottom ul {
+        margin-left:25px;
+    }
+    .wrap main .middle section .mBottom ul li div {
+        position: absolute;
+        top: 0px;
+    }
+    .wrap main .middle section .mBottom ul li div:hover {
+        -webkit-transform: translate(15px, 5px);
+    }
+    .wrap footer .left div:nth-child(1) {
+        width: 20%;float:left;
+    }
+    .wrap footer .left div:nth-child(1) img {
+        width: 100%;
+    }
+    .wrap footer .left div:nth-child(2) {
+        width: 70%;
+        float:right;
+    }
+    .wrap footer .right {
+        float: right;
+    }
+}
